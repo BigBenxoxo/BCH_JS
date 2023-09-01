@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #236747;
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: coral;
+}
+
+#container {
+
+    margin: 50px auto;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.formwrap {
+
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.formwrap h1,
+.formwrap p {
+
+    margin-bottom: 20px;
+
+    
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: #474747;
+    text-align: left;
+
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #a7a7a7;
+}
+
+.formwrap button {
+
+    width: 80%;
+    background: coral;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.formwrap .bottom-text {
+
+    font-size: 12px;
+}
+
+footer {
+
+    margin: 10px auto;
+    margin-bottom: 50px;
+    text-align: center;
+    color:white;
+    
+}
+
+.formwrap .bottom-text a:hover {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: green;
+}
+
+button:hover {
+    background-color: green;
+
+}
