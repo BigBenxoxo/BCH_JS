@@ -1,0 +1,74 @@
+
+html { 
+  background: url(https://wallpapercave.com/wp/7CaKQc5.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+
+body {
+  color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    margin-right: 350px;
+    margin-top: 40px;
+
+  }
+
+  div {
+
+    margin: 15px 0;
+  }
+
+  label, 
+  input {
+
+    display: inline-block;
+    width: 100px;
+  }
+
+  input {
+width: 150px;
+padding: 5px;
+margin-right: 103px;
+background-color: gainsboro;
+border-radius: 5px;
+border-style: solid gainsboro 1px;
+  }
+
+  input, 
+  button {
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  button {
+
+    background-color: chocolate;
+    border: none;
+    padding: 5px 25px;
+    color: gainsboro;
+    border-radius: 2px;
+    margin: 20px 0;
+  }
+
+  img {
+
+    border-radius: 50%;
+    height: 120px;
+    margin-top: 20px;
+    margin-right: 13px;
+  }
+button:hover {
+
+  background-color: rgb(134, 68, 20);
+  cursor: pointer;
+  
+}
+input:focus {outline:none;}
+
+
+
+  
