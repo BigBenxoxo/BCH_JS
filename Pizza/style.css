@@ -1,0 +1,73 @@
+body {
+background-color:#cd171a;
+color: #ffffff;
+font-family: Helvetica, sans-serif;
+text-align: center;
+}
+
+
+#yournamelabel {
+
+    position:absolute;
+    margin-left: 40px;
+}
+
+#yourname {
+
+    font-size: 105%;
+    color: #ffffff;
+
+}
+
+input {
+    border: 1px solid #ffffff;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 90%;
+    margin-top: 30px;
+
+}
+
+h1 {
+margin-top: 8px;
+    font-size: 180%;
+    
+}
+
+#servings {
+
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 330px;
+    
+}
+
+#twoservings {
+
+    margin-right: 3px;
+}
+
+#labeltwoservings {
+
+    margin-right: 9px;
+}
+
+.square {
+    background: #cd171a;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    width: 500px;
+    height: 260px;
+    margin-left: 423px;
+}
+
+img {
+
+    height: 210px;
+    width: 300px;
+    float: left;
+    border-radius: 5%;
+}

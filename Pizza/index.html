@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pizza</title>
+  </head>
+  <body>
+    <div id="yourname">
+      <label id="yournamelabel">Your name:</label>
+      <input id="yournameinput" type="text" />
+    </div>
+
+    <div class="square">
+      <h1>Choose your size.</h1>
+      <img
+        src="https://cdn-yams.godt.no/api/v1/godt-recipe/images/92/921d2ff7-15cb-447e-a5a5-b0d72d28900c?rule=w4000_auto"
+        alt="Pizza"
+      />
+
+      <form id="servings">
+        <input id="twoservings" type="radio" name="servings" value="2" /><label
+          id="labeltwoservings"
+          >2 servings: 7,50€
+        </label>
+        <br />
+        <input type="radio" name="servings" value="4" />4 servings: 10,50€<br />
+        <input type="radio" name="servings" value="6" />6 servings: 12,50€<br />
+        <input type="radio" name="servings" value="8" />8 servings: 15,50€
+      </form>
+    </div>
+  </body>
+</html>
